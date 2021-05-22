@@ -1,5 +1,5 @@
 #score {
-    border: 6px solid white;
+    border: 6px solid green;
     border-radius: 10px;
     width: 200px;
     height: 100px;
@@ -10,6 +10,9 @@
     font-size: 4em;
     text-shadow: 2px 2px 2px black;
     margin: 1em;
+    animation-name: color-change;
+    -o-animation-iteration-count: infinite;
+    animation-delay: 0.5s;
   }
   
   #description {
@@ -22,7 +25,7 @@
   .header {
     font-size: 3em;
     color: white;
-    background: #404040;
+    background: black;
     text-align: center;
     height: 2.5em;
     text-shadow: 4px 4px 4px black;
@@ -72,4 +75,10 @@
   body {
     background: #202020;
     margin: 0;
+  }
+ @keyframes color-change {
+    0%   {border-color: red;}
+    25%  {border-color: yellow;}
+    50%  {border-color: blue;}
+    100% {border-color: green;}
   }
