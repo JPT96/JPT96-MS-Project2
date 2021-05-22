@@ -77,8 +77,8 @@
     margin: 0;
   }
  @keyframes color-change {
-    0%   {border-color: red;}
-    25%  {border-color: yellow;}
-    50%  {border-color: blue;}
-    100% {border-color: green;}
+    0%   {border: red;}
+    25%  {border: yellow;}
+    50%  {border: blue;}
+    100% {border: green;}
   }
