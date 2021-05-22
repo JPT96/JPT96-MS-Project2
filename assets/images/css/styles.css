@@ -10,9 +10,10 @@
     font-size: 4em;
     text-shadow: 2px 2px 2px black;
     margin: 1em;
-    animation-name: color-change;
-    -o-animation-iteration-count: infinite;
+    animation-name: color;
+    animation-iteration-count: infinite;
     animation-delay: 0.5s;
+    animation-duration: 5s;
   }
   
   #description {
@@ -76,9 +77,10 @@
     background: #202020;
     margin: 0;
   }
- @keyframes color-change {
-    0%   {border: red;}
-    25%  {border: yellow;}
-    50%  {border: blue;}
-    100% {border: green;}
+ @keyframes color {
+    0%   {border-color: red;}
+    25%  {border-color: yellow;}
+    50%  {border-color: blue;}
+    75% {border-color: green;}
+    100%{border-color: red;}
   }
