@@ -1,6 +1,6 @@
 const selectionButtons = document.querySelectorAll('[data-selection]')
 const computerScoreSpan = document.querySelector('[data-computer-score]')
-const yourScore= document.querySelector('[data-your-score]')
+const yourScore = document.querySelector('[data-your-score]')
 const SELECTIONS  = [{
    name: 'rock',
    beats:'scissors , lizard'},
@@ -52,6 +52,6 @@ function isWinner(selection, opponentSelecton){
 
   function randomSelection(){
    
-    const randomIndex = math.floor(math.random() * SELECTIONS.length)
+    const randomIndex = Math.floor(Math.random() * SELECTIONS.length)
     return SELECTIONS[randomIndex]
   }
