@@ -3,19 +3,19 @@ const computerScoreSpan = document.querySelector('[data-computer-score]')
 const yourScore= document.querySelector('[data-your-score]')
 const SELECTIONS  = [{
    name: 'rock',
-   beats:'scissors,lizard'},
+   beats:'scissors , lizard'},
    {
 name: 'paper',
 beats: 'rock,spock'},
 {
 name: 'scissors',
-beats: 'paper,lizard'},
+beats: 'paper , lizard'},
 {
 name: 'lizard',
-beats: 'spock,paper'},
+beats: 'spock , paper'},
 {
 name: 'spock',
-beats: 'scissors,rock'},
+beats: 'scissors , rock'},
 
 ]
 
