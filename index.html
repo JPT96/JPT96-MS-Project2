@@ -3,21 +3,39 @@
 <head>
   <title> Rock Paper Scissors Lizard Spock</title>
   <link rel="stylesheet" type="text/css" href="assets/images/css/styles.css">
+  <script src= "script.js" defer></script>
 </head>
 <body>
   <div class="header">
     <span>Rock Paper Scissors Lizard Spock!</span>
   </div>
-  <div class="container">
-    <div id="score"></div>
-    <div id="description"></div>
-    <div id="selection" class="selection">
-       <img src="assets/images/rock.jpg" alt="rock choice for game"> 
-       <img src="assets/images/paper.jpg" alt="paper choice for game">
-       <img src="assets/images/scissors.jpg" alt="scissors for game">
-       <img src="assets/images/lizard.jpg" alt="lizard choice for game">
-       <img src="assets/images/spock.jpg" alt="spock choice for game">
+ <div class=container>
+    <div id="score" class="results">
+
+    
+    <div style="margin-right:40px;">
+        You:
+        <span class="result-score" data-your-score>0</span>
+      </div>
+  
+    <div style="margin-left: 40px;">
+        AI:
+        <span class="result-score" data-computer-score>0</span>
+      </div>
+    
+  </div>
+  
+    <div id="selection" class="selections">
+       <button class ="selection" id="rock"><img src="assets/images/rock.jpg" alt="rock choice for game" data-selection="rock"></img></button> 
+       <button  class ="selection"id="paper"><img src="assets/images/paper.jpg" alt="paper choice for game" data-selection="paper"></button>
+       <button  class ="selection"id="scissors"><img src="assets/images/scissors.jpg" alt="scissors for game" data-selection="scissors"> </button>
+       <button  class ="selection"id="lizard"><img src="assets/images/lizard.jpg" alt="lizard choice for game"data-selection="lizard"> </button>
+       <button  class ="selection"id="spock"> <img src="assets/images/spock.jpg" alt="spock choice for game" data-selection="spock"></button>
     </div>
+    <div class="result-selection">
+
+    </div>
+    <div class= "result-selection winner"></div>
   </div>
   <script src="assets/images/css/JS/main.js" type="module">
   </script>
