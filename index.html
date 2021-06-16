@@ -1,43 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+  <script src="/js/main.js" defer></script>
 <head>
-  <title> Rock Paper Scissors Lizard Spock</title>
-  <link rel="stylesheet" type="text/css" href="assets/images/css/styles.css">
-  <script src= "assets/images/css/JS/main.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/styles/styles.css">
+   Rock, Paper, Scissors, Lizard, Spock</title>
 </head>
 <body>
-  <div class="header">
-    <span>Rock Paper Scissors Lizard Spock!</span>
-  </div>
- <div class=container>
-    <div id="score" class="results">
-
-    
-    <div style="margin-right:40px;">
-        You:
-        <span class="result-score" data-your-score>0</span>
-      </div>
-  
-    <div style="margin-left: 40px;">
-        AI:
-        <span class="result-score" data-computer-score>0</span>
-      </div>
-    
-  </div>
-  
-    <div id="selection" class="selections">
-       <button class ="selection" id="rock"><img src="assets/images/rock.jpg" alt="rock choice for game" data-selection="rock"></img></button> 
-       <button  class ="selection"id="paper"><img src="assets/images/paper.jpg" alt="paper choice for game" data-selection="paper"></button>
-       <button  class ="selection"id="scissors"><img src="assets/images/scissors.jpg" alt="scissors for game" data-selection="scissors"> </button>
-       <button  class ="selection"id="lizard"><img src="assets/images/lizard.jpg" alt="lizard choice for game"data-selection="lizard"> </button>
-       <button  class ="selection"id="spock"> <img src="assets/images/spock.jpg" alt="spock choice for game" data-selection="spock"></button>
+  <div class="flex-column main-container">
+    <!-- Title block -->
+  <section class="title-block flex-row">
+    <ul>
+      <li>Rock</li>
+      <li>Paper</li>
+      <li>Scissors</li>
+      <li>Lizard</li>
+      <li>Spock</li>
+    </ul>
+    <div class="score flex-column">
+      <div class="score-title">Score</div>
+      <div class="score-count"></div>
     </div>
-    <div class="result-selection">
+  </section>
 
+  <!-- User choice -->
+  <section class="user-choice">
+    <div class="game-card scissors"><img src="/images/icon-scissors.svg" alt=""></div>
+    <div class="game-card paper"><img src="/images/icon-paper.svg" alt=""></div>
+    <div class="game-card rock"><img src="/images/icon-rock.svg" alt=""></div>
+    <div class="game-card lizard"><img src="/images/icon-lizard.svg" alt=""></div>
+    <div class="game-card spock"><img src="/images/icon-spock.svg" alt=""></div>
+  </section>
+
+  <div class="section picked flex-row hidden">
+    <div class="choice flex-column">
+      <p>You picked</p>
+      <div class="user-pick"></div>
     </div>
-    <div class= "result-selection winner"></div>
+    <div class="result">
+      <div class="title">You lose</div>
+      <button>Play again</button>
+    </div>   
+    <div class="choice flex-column">
+      <p>The house picked</p>
+      <div class="pc-pick"></div>
+    </div> 
   </div>
-  <script src="assets/images/css/JS/main.js" type="module">
-  </script>
+
+  <button class="rules-btn">Rules</button> 
+  <div class="modal-bg"></div>
+  <div class="modal">
+    <span class="close">
+      <img src="/images/icon-close.svg" alt="">
+    </span>
+    <div class="title">Rules</div>
+    <div class="content">
+      <img src="/images/image-rules-bonus.svg" alt="">
+    </div>
+  </div>
+
+
+  
+    </p>
+  </div>
+  </div>
+  
 </body>
 </html>
