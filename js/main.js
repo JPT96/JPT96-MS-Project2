@@ -27,7 +27,7 @@ function game() {
         });
         resultElement.querySelector('button').addEventListener('click', tryAgain);
     
-    })
+    }) 
     
     function startGame() {
         calculateWinner(userChoice, compChoice);
