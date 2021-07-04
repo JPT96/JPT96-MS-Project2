@@ -100,5 +100,5 @@ function game() {
             hideModal();
         }
     });
-
+    document.querySelector('.close').addEventListener('click', hideModal);
 
