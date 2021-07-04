@@ -57,4 +57,7 @@ function game() {
             calculateScore(-1);
         }
     }
+    function getUserWinsStatus(result) {
+        return userWinResults.some(winStr => winStr === result);
+    }
 
