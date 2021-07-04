@@ -378,27 +378,27 @@ cursor: pointer;
         width: 35px;
     }
 
-    .game-card.scissors {
+    .button.scissors {
         top: 0;
         left: 140px;
     }
     
-    .game-card.paper {
+    .button.paper {
         top: 80px;
         right: 15px;
     }
 
-    .game-card.rock {
+    .button.rock {
         bottom: 4px;
         right: 52px;
     }
 
-    .game-card.lizard {
+    .button.lizard {
         bottom: 0;
         left: 55px;
     }
 
-    .game-card.spock {
+    .button.spock {
         top: 86px;
         left: 20px;
     }
