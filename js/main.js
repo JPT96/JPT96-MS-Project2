@@ -10,3 +10,7 @@ function game() {
     const userPickElement = document.querySelector('.user-pick');
     const pcPickElement = document.querySelector('.pc-pick');
     const resultElement = document.querySelector('.result');
+    const resultTitleElement = resultElement.querySelector('.title');
+    const scoreCountElement = document.querySelector('.score-count');
+ 
+    let currentScore = null;
