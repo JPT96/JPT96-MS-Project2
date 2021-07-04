@@ -1,8 +1,18 @@
 'Strict mode'
 function game() {
     const actions = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
-    const pairings = ['scissorspaper', 'paperrock', 'rocklizard', 'lizardspock', 'spockscissors',
-    'rockscissors', 'scissorslizard', 'lizardpaper', 'paperspock', 'spockrock'];
+    const pairings = [
+    'scissorspaper',
+    'scissorslizard', 
+    'paperrock',  
+    'paperspock',
+    'rocklizard', 
+    'rockscissors', 
+    'lizardspock',  
+    'lizardpaper',
+    'spockscissors',
+    'spockrock'
+];
     let userChoice = '';
     let compChoice = '';
     const userChoiceElement = document.querySelector('.user-choice');
