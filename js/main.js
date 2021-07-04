@@ -46,4 +46,15 @@ function game() {
     function getComputerChoice() {
         return actions[Math.floor(Math.random() * 5)];
     }
+    function calculateWinner(user, comp) {
+        if (user === comp) {
+            resultTitleElement.innerText = 'Tie';
+        } else if (getUserWinsStatus(user + comp)) {
+            resultTitleElement.innerText = 'You win';
+            calculateScore(1);
+        } else {
+            resultTitleElement.innerText = 'You lose';
+            calculateScore(-1);
+        }
+    }
 
