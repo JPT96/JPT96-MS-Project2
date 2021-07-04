@@ -1,7 +1,7 @@
 'Strict mode'
 function game() {
     const actions = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
-    const userWinResults = ['scissorspaper', 'paperrock', 'rocklizard', 'lizardspock', 'spockscissors',
+    const pairings = ['scissorspaper', 'paperrock', 'rocklizard', 'lizardspock', 'spockscissors',
     'rockscissors', 'scissorslizard', 'lizardpaper', 'paperspock', 'spockrock'];
     let userChoice = '';
     let compChoice = '';
@@ -58,7 +58,7 @@ function game() {
         }
     }
     function getUserWinsStatus(result) {
-        return userWinResults.some(winStr => winStr === result);
+        return pairings.some(winStr => winStr === result);
     }
     function buildChoiceElement(isItUserElement, className) {
         const el = document.createElement('div');
