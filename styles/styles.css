@@ -35,7 +35,7 @@ body {
     align-items: center;
     min-height: 100vh;
     position: relative;
-    background: radial-gradient(circle at top, hsl(278, 42%, 26%), hsl(293, 64%, 29%));
+    background: radial-gradient(circle at top, hsl(278deg 64% 53%), hsl(293deg 86% 7%));
 }
 
 .main-container {
