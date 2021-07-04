@@ -14,3 +14,14 @@ function game() {
     const scoreCountElement = document.querySelector('.score-count');
  
     let currentScore = null;
+    window.addEventListener('load', () => {
+        retrieveScoreFromLocalStorage();
+    
+        document.querySelectorAll('.user-choice .game-card').forEach(card => {
+            card.addEventListener('click', (ev) => {
+                userChoice = getUserChoice(ev.target);
+                compChoice = getComputerChoice();
+    
+                startGame();
+            })
+        });
