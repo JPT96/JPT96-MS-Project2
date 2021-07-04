@@ -74,4 +74,8 @@ function game() {
         userChoiceElement.classList.remove('hidden');
         pickedElement.classList.add('hidden');
     }
+    function clearResultBeforeAppend() {
+        userPickElement.innerHTML = '';
+        pcPickElement.innerHTML = '';
+    }
 
