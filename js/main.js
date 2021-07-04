@@ -95,5 +95,10 @@ function game() {
         modal.classList.add('active');
         modalBg.classList.add('active');
     });
+    modalBg.addEventListener('click', (event) => {
+        if (event.target === modalBg) {
+            hideModal();
+        }
+    });
 
 
