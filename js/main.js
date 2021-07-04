@@ -87,6 +87,11 @@ function game() {
         currentScore = score;
         updateScoreBoard();
     }
+    function updateScoreBoard() {
+        scoreCountElement.innerText = currentScore;
+        window.localStorage.setItem('gameScore', currentScore);
+    }
+
     const rulesBtn = document.querySelector('.rules-btn');
     const modalBg = document.querySelector('.modal-bg');
     const modal = document.querySelector('.modal');
