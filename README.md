@@ -1,5 +1,6 @@
 # JPT96-MS-Project2
-This is going to be my rock paper scissors lizard spock javascript project 
+![](readme-screenshots/ressult-screen.png)
+![](readme-screenshots/selection-screen.png)
 ## About
 
 for my second MileStone project I wanted to do something simple, that would also allow me to apply the lessons I have learnt in my javascript module.
