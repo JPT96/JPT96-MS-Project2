@@ -35,7 +35,7 @@ body {
     align-items: center;
     min-height: 100vh;
     position: relative;
-    background: radial-gradient(circle at top, hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+    background: radial-gradient(circle at top, hsl(278, 42%, 26%), hsl(293, 64%, 29%));
 }
 
 .main-container {
@@ -106,7 +106,7 @@ body {
  /* User choice */
 
  .user-choice {
-     background: center / contain no-repeat url(../images/bg-pentagon.svg);
+    
      background-size: 340px;
      width: 100%;
      max-width: 700px;
