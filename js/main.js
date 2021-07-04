@@ -43,4 +43,7 @@ function game() {
         }
         return target.classList[1];
     }
+    function getComputerChoice() {
+        return actions[Math.floor(Math.random() * 5)];
+    }
 
