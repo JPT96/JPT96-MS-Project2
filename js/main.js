@@ -22,6 +22,6 @@ function game() {
                 userChoice = getUserChoice(ev.target);
                 compChoice = getComputerChoice();
     
-                startGame();
+                startGame(); 
             })
         });
