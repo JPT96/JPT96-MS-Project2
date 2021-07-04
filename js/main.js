@@ -87,5 +87,8 @@ function game() {
         currentScore = score;
         updateScoreBoard();
     }
+    const rulesBtn = document.querySelector('.rules-btn');
+    const modalBg = document.querySelector('.modal-bg');
+    const modal = document.querySelector('.modal');
 
 
