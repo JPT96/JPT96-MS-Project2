@@ -17,7 +17,7 @@ function game() {
     window.addEventListener('load', () => {
         retrieveScoreFromLocalStorage();
     
-        document.querySelectorAll('.user-choice .game-card').forEach(card => {
+        document.querySelectorAll('.user-choice .button').forEach(card => {
             card.addEventListener('click', (ev) => {
                 userChoice = getUserChoice(ev.target);
                 compChoice = getComputerChoice();
@@ -62,7 +62,7 @@ function game() {
     }
     function buildChoiceElement(isItUserElement, className) {
         const el = document.createElement('div');
-        el.classList = [`game-card ${className}`];
+        el.classList = [`button${className}`];
         el.innerHTML = `<img src="/images/icon-${className}.svg" alt="${className}">`;
         if (isItUserElement) {
             userPickElement.append(el);

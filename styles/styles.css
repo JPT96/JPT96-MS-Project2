@@ -192,7 +192,9 @@ body {
     top: 130px;
     left: 115px;
 }
-
+.button :hover {
+cursor: pointer;
+}
 /* Picked section */
 
 .picked {
