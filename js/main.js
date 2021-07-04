@@ -36,5 +36,5 @@ function game() {
         clearResultBeforeAppend();
         buildChoiceElement(true, userChoice);
         buildChoiceElement(false, compChoice);
-    }
+    } 
     
