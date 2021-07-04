@@ -158,35 +158,35 @@ body {
     box-shadow: none;
 }
 
-.game-card.scissors {
+.button .scissors {
     background: linear-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%));
     box-shadow: 0px 6px 0px 0px hsl(28, 75%, 44%);
     top: 0;
     left: 278px;
 }
 
-.game-card.paper {
+.button .paper {
     background: linear-gradient(hsl(230, 89%, 62%), hsl(230, 89%, 65%));
     box-shadow: 0px 6px 0px 0px hsl(229, 62%, 34%);
     top: 130px;
     right: 115px;
 }
 
-.game-card.rock {
+.button .rock {
     background: linear-gradient(hsl(349, 71%, 52%), hsl(349, 70%, 56%));
     box-shadow: 0px 6px 0px 0px hsl(343, 70%, 30%);
     bottom: 0;
     right: 178px;
 }
 
-.game-card.lizard {
+.button .lizard {
     background: linear-gradient(hsl(261, 73%, 60%), hsl(261, 72%, 63%));
     box-shadow: 0px 6px 0px 0px hsl(259, 48%, 38%);
     bottom: 0;
     left: 180px;
 }
 
-.game-card.spock {
+.button .spock {
     background: linear-gradient(hsl(189, 59%, 53%), hsl(189, 58%, 57%));
     box-shadow: 0px 6px 0px 0px hsl(197, 54%, 36%);
     top: 130px;
