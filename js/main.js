@@ -101,4 +101,12 @@ function game() {
         }
     });
     document.querySelector('.close').addEventListener('click', hideModal);
+ 
+    function hideModal() {
+        modal.classList.remove('active');
+        modalBg.classList.remove('active');  
+    }
+}
+ 
+game();
 
