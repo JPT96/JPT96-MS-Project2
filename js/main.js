@@ -37,4 +37,10 @@ function game() {
         buildChoiceElement(true, userChoice);
         buildChoiceElement(false, compChoice);
     } 
-    
+    function getUserChoice(target) {
+        if (target.nodeName === 'IMG') {
+            return target.parentElement.classList[1];
+        }
+        return target.classList[1];
+    }
+
