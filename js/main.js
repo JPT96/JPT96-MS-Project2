@@ -78,4 +78,9 @@ function game() {
         userPickElement.innerHTML = '';
         pcPickElement.innerHTML = '';
     }
+    function calculateScore(roundResult) {
+        currentScore += roundResult;
+        updateScoreBoard();
+    }
+ 
 
