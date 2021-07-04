@@ -70,4 +70,8 @@ function game() {
             pcPickElement.append(el);
         }
     }
+    function tryAgain() {
+        userChoiceElement.classList.remove('hidden');
+        pickedElement.classList.add('hidden');
+    }
 
