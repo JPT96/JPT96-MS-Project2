@@ -193,7 +193,7 @@ cursor: pointer;
     padding: 14px 63px;
     border-radius: 10px;
     cursor: pointer;
-    background: linear-gradient(to left, #fff 50%, transparent 50%);
+    background: linear-gradient(to left, #df16ec7a 50%, transparent 50%);
     background-size: 250% 100%;
     background-position: right bottom;
     transition: background-position .3s ease-out, color .3s ease-out;
