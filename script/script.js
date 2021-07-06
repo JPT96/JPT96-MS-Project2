@@ -72,7 +72,7 @@ function game() {
     }
     function buildChoiceElement(isItUserElement, className) {
         const el = document.createElement('div');
-        el.classList = [`button${className}`];
+        el.classList = [`game-card${className}`];
         el.innerHTML = `<img src="./images/icon-${className}.svg" alt="${className}">`;
         if (isItUserElement) {
             userPickElement.append(el);
