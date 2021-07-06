@@ -108,7 +108,7 @@ body {
  }
  
  .score-title {
-     color: hsl(229, 64%, 46%);
+     color: hsl(266deg 80% 52%);
      font-size: 20px;
      font-weight: 700;
      margin: 0 0 2px;
@@ -220,8 +220,8 @@ cursor: pointer;
     right: 20px;
     bottom: 100px;
     cursor: pointer;
-    color: #fff;
-    background: linear-gradient(to left, transparent 50%, #fff 50%);
+    color: #2ef10b;;
+    background: linear-gradient(to left, transparent 50%, #20ddde  50%);
     background-size: 250% 100%;
     background-position: right bottom;
     transition: background-position .3s ease-out, color .3s ease-out;
