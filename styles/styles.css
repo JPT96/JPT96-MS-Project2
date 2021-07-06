@@ -308,11 +308,11 @@ cursor: pointer;
         height: 150px;
     }
 
-    .picked .button img {
+    .picked .game-card img {
         width: 55px;
     }
     
-    .picked .button:before {
+    .picked .game-card:before {
         width: 115px;
         height: 115px;
     }
@@ -364,17 +364,17 @@ cursor: pointer;
         max-width: 375px;
     }
 
-    .user-choice .button {
+    .user-choice .game-card {
         width: 100px;
         height: 100px;
     }
 
-    .user-choice .button:before {
+    .user-choice .game-card:before {
         width: 75px;
         height: 75px;
     }
 
-    .user-choice .button img {
+    .user-choice .game-card img {
         width: 35px;
     }
 
