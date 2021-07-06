@@ -61,7 +61,8 @@ Getting the buttons to stay central proved challenging as they would like to sit
 All of my issues usually came from Javascript but once again this is absolutely a step up from HTML and CSS, and with that came many teething issues and problem solving skills really being tested.
 
  ## bugs
- There a no known bugs.
+ there is a known bug that if you remove the dot before the first forward slash when it comes to css javascript or images the page will not load these things.
+ but the preview will show you that they're there. 
  
  ## credit & acknowledgement
  I would like to give credit to the many many tutorials and forums that have made similiar games. And have insipred some of the layouts throughout the game.
