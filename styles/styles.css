@@ -37,6 +37,19 @@ body {
     position: relative;
     background: radial-gradient(circle at top, hsl(278deg 100% 15%), hsl(293deg 86% 7%));
 }
+.stage{
+     min-height: 100%;
+        min-width: 1024px;
+          
+       
+        width: 100%;
+        height: auto;
+     position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
+
  
 .main-container {
     align-items: center;
