@@ -37,7 +37,7 @@ body {
     position: relative;
     background-color:rgb(64, 124, 148) ;
 }
-.stage{
+.snythwave{
      min-height: 100%;
         min-width: 1024px;
           
@@ -95,17 +95,16 @@ body {
  }
  
  .score {
-    background: #608ed4;
+    background:  linear-gradient(
+        158deg
+        , #0000007d, transparent);;
     width: 150px;
     border-radius: 10px;
-    border: 2px solid green;
+   
     align-items: center;
     height: 115px;
     padding: 14px 0 0;
-    animation-name: color;
-      animation-iteration-count: infinite;
-      animation-delay: 0.5s;
-      animation-duration: 5s;
+    
  }
  
  .score-title {
@@ -117,7 +116,7 @@ body {
  }
  
  .score-count {
-    color: hsl(229, 25%, 31%);
+    color: hsl(58deg 63% 37%);;
     font-size: 63px;
     line-height: .9;
     font-weight: 700;
