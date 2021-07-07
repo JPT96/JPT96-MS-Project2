@@ -134,23 +134,23 @@ body {
  }
  .button.scissors{
     border: 1px solid;
-    height: 48px;
+    height: 58px;
      margin-right: 30px;
  }
  .button.spock{
     border: 1px solid;
-    height: 48px;
+    height: 62px;
      margin-right:30px;
  }
  .button.lizard{
     border: 1px solid;
-    height: 48px;
+    height: 60px;
      margin-right:30px;
  }
  .button.paper{
      margin-right: 30px;
      border: 1px solid;
-    height: 48px;
+    height: 59px;
  }
  .button.rock{
 margin-right: 30px;
