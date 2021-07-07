@@ -146,6 +146,7 @@ body {
  }
  .button.rock{
 margin-right: 30px;
+
  }
  
  
@@ -154,14 +155,16 @@ margin-right: 30px;
 cursor: pointer;
 background-color: #d820de8a;
 transition: 0.5s;
-
+border: 1px solid;
+    height: 48px;
 
 }
 .button.paper :hover {
     cursor: pointer;
     background-color: #cbde2098;
     transition: 0.5s;
-    
+    border: 1px solid;
+    height: 48px;
 
 
     }
@@ -169,13 +172,15 @@ transition: 0.5s;
         cursor: pointer;
         background-color: #0febeb77;
         transition: 0.5s;
-       
+        border: 1px solid;
+        height: 48px;
      }
      .button.lizard :hover {
         cursor: pointer;
         background-color: #20de76a9;
         transition: 0.5s;
-
+        border: 1px solid;
+        height: 48px;
 
         
         }
@@ -183,7 +188,8 @@ transition: 0.5s;
             cursor: pointer;
             background-color: #860c9696;
             transition: 0.5s;
-           
+            border: 1px solid;
+            height: 48px;
 
 
             
