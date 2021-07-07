@@ -124,4 +124,4 @@ function game() {
 }
  
 game();
-var beep = new Audio ('sounds/clickSound.wav') ; 
+var beep = new Audio ('sounds/beepSound.mp3') ; 
