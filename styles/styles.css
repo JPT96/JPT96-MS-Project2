@@ -154,6 +154,7 @@ margin-right: 30px;
 cursor: pointer;
 background-color: #20ddde;
 transition: 0.5s;
+border:#2ef10b;
 border-radius: 50%;
 }
 /* Picked section */
