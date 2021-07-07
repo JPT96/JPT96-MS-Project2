@@ -1,6 +1,7 @@
 # JPT96-MS-Project2
 ![](readme-screenshots/ressult-screen.png)
 ![](readme-screenshots/selection-screen.png)
+![](readme-screenshots/rules.png)
 ## About
 
 for my second MileStone project I wanted to do something simple, that would also allow me to apply the lessons I have learnt in my javascript module.
