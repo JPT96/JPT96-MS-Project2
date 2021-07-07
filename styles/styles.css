@@ -431,7 +431,7 @@ transition: 0.5s;
     .button.rock {
         bottom: 4px;
         right: 52px;
-        height: 46px;
+        height: 40px;
     }
  
     .button.lizard {
