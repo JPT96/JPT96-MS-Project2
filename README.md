@@ -20,8 +20,9 @@ as the score goes up or below zero depending on wether the random selector is wi
 One negative view of this game is that there is no win condition, I haven't built in a win condition as winning isn't the main priorty of the game.
 It has simply been created to demonstrate my progress with javascript.
 ### UI Justification.
-the User interface is very simple with a hover on cursor so you know what you are picking. as well as the linear fade on the rules so you know that you are hovering that as well as the play again button. It was challenging to make it seem fun as well as intuitve.
-I have added a animation to liven things up a little as well. 
+The Interface is very in the style of synth wave or vapourwave. It's essentially 80's nostalgia. I've added a glow behind buttons when they are hovered,
+and a sound effect for when it is clicked, which is the same for the play again button.I have added a youtube synthwave playlist as well as I wanted some 
+music to set the scene
 ## Features.
 the features within this application are also limited. 
 There is a score board, a variety of coices to pick from and a play again button as well as a rules button in the bottom right corner.
@@ -36,14 +37,17 @@ for the score title: #608ed4,hsl(229, 64%, 46%);
 * imagery
 for the images I have used the free rescource for these images (given credit to frontend mentor) all have been edited in light room to adjust for the size.
 i didn't want anything flashy for this so I went with silouhette shapes for each selection. 
+for the background I used a free rescource. 
+for the video I made sure it was royalty free as well.
 
 ### Future Features
-If I had more time for this project I would like to make the buttons a lot more flashy and appealing and try and flip the style I have created on it's head.
-Going from a dark page that doesn't have much going on to something that is bright and colourful.
-I would like to create a username option, even a fun prompt in the Javascript when a score limit is reached that would send you to potentially a flash games website.
+For the future I would like to impliment ways of hidding easter eggs. For example adding a combination of buttons presssed sends you to a arcade site for example.
+or a certain score triggers a 8bit song. 
 
 ## Technologies used
 If you wish to look at the technologies used within my project you can find them listed below.
+[Studio One] <https://en.wikipedia.org/wiki/Studio_One_(software)>
+<br>
 [light room] <https://en.wikipedia.org/wiki/Adobe_Lightroom>
 <br>
 [html 5]<https://en.wikipedia.org/wiki/HTML5>
