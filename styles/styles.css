@@ -448,8 +448,8 @@ transition: 0.5s;
     }
  
     .result {
-        position: absolute;
-        top: 360px;
+        position: relative;
+        margin-top: 200px;
         left: 0;
         right: 0;
     }
@@ -507,9 +507,3 @@ transition: 0.5s;
 bottom:0px;
 position: relative;
 }}
-@media only screen and (max-width: 768px) {
-    .again{
-        margin-top: 250px;
-
-    }
-}
