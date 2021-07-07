@@ -150,33 +150,33 @@ margin-right: 30px;
  
  
  
-.button .rock :hover {
+.button.rock :hover {
 cursor: pointer;
 background-color: #d820de8a;
 transition: 0.5s;
 
 
 }
-.button .paper :hover {
+.button.paper :hover {
     cursor: pointer;
     background-color: #cbde2098;
     transition: 0.5s;
     
     }
-    .button .scissors :hover {
+    .button.scissors :hover {
         cursor: pointer;
         background-color: #0febeb77;
         transition: 0.5s;
         
      }
-     .button .lizard :hover {
+     .button.lizard :hover {
         cursor: pointer;
         background-color: #20de76a9;
         transition: 0.5s;
        
         
         }
-        .button .spock :hover {
+        .button.spock :hover {
             cursor: pointer;
             background-color: #860c9696;
             transition: 0.5s;
