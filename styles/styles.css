@@ -130,13 +130,30 @@ body {
      max-width: 700px;
      position: relative;
      height: 467px;
+     display: flex;
  }
- 
+ .button.scissors{
+     margin-right: 30px;
+ }
+ .button.spock{
+     margin-right:30px;
+ }
+ .button.lizard{
+     margin-right:30px;
+ }
+ .button.paper{
+     margin-left: 30px;
+ }
+ .button.rock{
+margin-bottom: 30px;
+ }
  
  
  
 .button :hover {
 cursor: pointer;
+color: #20ddde;
+transition: 0.5s;
 }
 /* Picked section */
  
