@@ -503,7 +503,8 @@ transition: 0.5s;
         margin: 30px 0 60px;
     }
 }
-@media only screen and (max-width: 768px) {#ytplayer{
-    
+@media only screen and (max-width: 768px) {.rules-btn{
+bottom:0px;
+position: relative;
 }}
 @media only screen and (max-width: 1366px) {}
