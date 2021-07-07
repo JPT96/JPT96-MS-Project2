@@ -150,13 +150,39 @@ margin-right: 30px;
  
  
  
-.button . :hover {
+.button .rock :hover {
 cursor: pointer;
-background-color: #20ddde;
+background-color: #d820de8a;
 transition: 0.5s;
-border:#2ef10b;
+
 
 }
+.button .paper :hover {
+    cursor: pointer;
+    background-color: #cbde2098;
+    transition: 0.5s;
+    
+    }
+    .button .scissors :hover {
+        cursor: pointer;
+        background-color: #0febeb77;
+        transition: 0.5s;
+        
+     }
+     .button .lizard :hover {
+        cursor: pointer;
+        background-color: #20de76a9;
+        transition: 0.5s;
+       
+        
+        }
+        .button .spock :hover {
+            cursor: pointer;
+            background-color: #860c9696;
+            transition: 0.5s;
+            
+            
+            }
 /* Picked section */
  
 .picked {
