@@ -150,7 +150,7 @@ margin-right: 30px;
  
  
  
-.button a:hover {
+.button :hover {
 cursor: pointer;
 color: #20ddde;
 transition: 0.5s;
