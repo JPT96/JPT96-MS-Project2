@@ -133,63 +133,67 @@ body {
      display: flex;
  }
  .button.scissors{
-    border: 1px solid;
+    
     height: 58px;
      margin-right: 30px;
  }
  .button.spock{
-    border: 1px solid;
+    
     height: 62px;
      margin-right:30px;
  }
  .button.lizard{
-    border: 1px solid;
+    
     height: 60px;
      margin-right:30px;
  }
  .button.paper{
      margin-right: 30px;
-     border: 1px solid;
+    
     height: 59px;
  }
  .button.rock{
 margin-right: 30px;
-border: 1px solid;
+
     height: 48px;
  }
  
- 
+ .paperimg{background-color: #20ddde;}
+ .rockimg{background-color: #2fbf6f;}
+ .spockimg{background-color: #c218d1;}
+ .scissorsimg{background-color: #a2c71b;}
+ .lizardimg{background-color: #1476e694;}
  
 .button.rock :hover {
 cursor: pointer;
-background-color: #d820de8a;
+background-color: #20ddde;
 transition: 0.5s;
 
 
 }
 .button.paper :hover {
     cursor: pointer;
-    background-color: #cbde2098;
+    background-color: #2fbf6f;
     transition: 0.5s;
    
 
     }
     .button.scissors :hover {
         cursor: pointer;
-        background-color: #0febeb77;
+        background-color: #c218d1;
         transition: 0.5s;
        
      }
      .button.lizard :hover {
         cursor: pointer;
-        background-color: #20de76a9;
+        background-color: #20ddde;
         transition: 0.5s;
         
         
         }
         .button.spock :hover {
             cursor: pointer;
-            background-color: #860c9696;
+            background-color: #1476e6a4;
             transition: 0.5s;
             
 
