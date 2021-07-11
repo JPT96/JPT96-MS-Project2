@@ -1,6 +1,9 @@
 
 function game() {
-    const actions = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
+    
+    const actions = [
+        'rock', 'paper', 'scissors', 'lizard', 'spock'
+    ];
     const pairings = [
     'scissorspaper',
     'scissorslizard', 
