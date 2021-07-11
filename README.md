@@ -72,6 +72,8 @@ All of my issues usually came from Javascript but once again this is absolutely 
 </p>
             
 all of my HTML files pass the HTML validator. it just didn't offer the same copy and paste valid sticker as it did for CSS.
+For Javascript I found that my code works fine and has minimal errors, it says about having unexpected const's for example, and I can't see how when I'm defining an array.
+this is a variable that shouldn't change. So unfortunately I am unable to get a JS validator, but if you look at any website ever you'll find there are minor JS errors.
 
 
  ## Bugs
