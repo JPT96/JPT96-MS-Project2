@@ -63,6 +63,16 @@ If you wish to look at the technologies used within my project you can find them
 When testing this out it was hard to get the score counter to work, this comes from me slowly learning Javascript. I would like to say that I am still learning javascript and actually find myself needing to refresh constantly, especially when it comes to things like DOM and functions. So this naturally lead to a gruelling testing stage of trying to make them work. All of my commits are when something has been achieved so unfortunatley I didn't have this process commited as fequently as I would of liked.
 Getting the buttons to stay central proved challenging as they would like to sit at weird angles on different sized screens so I simply removed the width at 100% and let them sit as a row in the centre which I find is a suitable placement.
 All of my issues usually came from Javascript but once again this is absolutely a step up from HTML and CSS, and with that came many teething issues and problem solving skills really being tested.
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+            
+all of my HTML files pass the HTML validator. it just didn't offer the same copy and paste valid sticker as it did for CSS.
+
 
  ## Bugs
  There is a known bug that if you remove the dot before the first forward slash when it comes to css javascript or images the page will not load these things.
