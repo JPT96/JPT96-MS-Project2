@@ -1,4 +1,4 @@
-'Strict mode'
+
 function game() {
     const actions = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
     const pairings = [
